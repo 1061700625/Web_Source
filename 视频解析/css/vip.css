@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	min-width: 500px;
+}
+
+.header{
+	text-align: center;
+	background-color: gray;
+	color: whitesmoke;
+	font-family: "行楷";
+	font-size: 20px;
+	border-radius: 5px;
+	width: 500px;
+	margin: 10px auto;
+	padding: 5px 0;
+}
+.box_body{
+	margin-top: 50px;
+}
+.box_input_group{
+	border: 1px solid gainsboro;
+	padding: 10px 0;
+	font-family: "楷体";
+	font-size: 16px;
+	border-radius: 8px;
+	width: 500px;
+	margin: 20px auto;
+	height: 25px;
+}
+.notes{
+	padding: 18px 10px 15px 10px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	background-color: palegoldenrod;
+}
+
+#selection{
+	height: 30px;
+	/*border: 0;*/
+	min-width: 200px;
+	border-color: darkgray;
+}
+.box_url_input{
+	/*border: 0;*/
+	width: 350px;
+	line-height: 18px;
+	border-color: white;
+}
+.video_play{
+	text-align: center;
+}
+.box_btn_submit{
+	margin: 10px auto;
+	text-align: center;
+}
+.submit_btn{
+	/*border: 1px solid red;*/
+	width: 500px;
+	font-family: "黑体";
+	font-size: 18px;
+	border-radius: 8px;
+	padding: 10px 0;
+}
+.submit_btn:hover{
+	cursor: pointer;
+}
+
+.box_links{
+	padding: 10px 0 10px 0;
+	background-color: rgb(233,231,227);
+	height: 150px;
+}
+.box_links_title{
+	padding: 4px 0 4px 20px;
+	font-family:楷体;
+	background-color: dimgrey;
+}
+.box_link{
+	padding-left: 20px;
+}
+.box_link a{
+	display: inline-block;
+	text-decoration: none;
+	color: darkslategrey;
+	padding: 4px 10px 4px 10px;
+}
+.box_link a:hover{
+	background-color: rgb(63,63,63);
+	color: whitesmoke;
+}
