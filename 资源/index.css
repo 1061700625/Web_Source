@@ -1,0 +1,21 @@
+
+.logstate{
+				color: dimgray;
+				font-family: "楷体";
+				font-size: 20px;
+				/* border: red solid 1px; */
+				position: relative;
+				float: right;
+				top: 10px;
+				right: 100px;
+				z-index: 1;
+				text-decoration: none;
+				padding: 5px 10px 5px 10px;
+				margin-left: 5px;
+				border-radius: 10px;
+				background: palegreen;
+			}
+			a:hover{
+				background: darkgray;
+				color: whitesmoke;
+			}
