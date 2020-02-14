@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--author: SXF-->                 
+<!--email:1061700625@qq.com-->     
+<!--date:2018/10/21-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="SXF"/>
+		<title>NCURobot-报名</title>
+		<link rel="shortcut icon" href="../favicon.ico"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+		<link rel="stylesheet" href="../css/signup.css" />
+		<link rel="shortcut icon" href="favicon.ico"/>
+	</head>
+	<body>
+		<div>
+			<p class="title animated fadeInDown">报名信息</p>
+		</div>
+		<form action="../php/signup.php" method="post" class="form_apply animated flipInX">
+			<div class="box">
+				<div class="box_item">
+					<div class="item_title">
+						<i class="must">*</i>
+						队伍名称：
+					</div>
+					<div class="item_content">
+						<input type="text" name="team_name" class="team" placeholder="队伍名称" required="required"/>
+					</div>
+				</div>
+				
+				<div class="box_item">
+					<div class="item_title">
+						<i class="must">*</i>
+						参赛学院：
+					</div>
+					<div class="item_content">
+						<input type="text" name="college_name" class="college" placeholder="学院全称" required="required"/>
+					</div>
+				</div>
+				
+				<div class="box_item">
+					<div class="item_title">
+						<i class="must">*</i>
+						参赛项目：
+					</div>
+					<div class="item_content">
+						<select name="project" class="competition">
+							<option value="自动分拣机器人项目">自动分拣机器人项目</option>
+							<option value="智能搬运项目">智能搬运项目</option>
+							<option value="无人机续航挑战项目">无人机续航挑战项目</option>
+							<option value="无人机大战水果项目">无人机大战水果项目</option>
+							<option value="机器人先进视觉 - 2D识别项目">机器人先进视觉 - 2D识别项目</option>
+							<option value="机器人先进视觉 - 3D识别项目">机器人先进视觉 - 3D识别项目</option>
+							<option value="工程创新项目">工程创新项目</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="box_item">
+					<div class="item_title">
+						<i class="must">*</i>
+						指导老师：
+					</div>
+					<div class="item_content">
+						<input type="text" name="adviser_name" class="adviser" placeholder="姓名" required="required"/>
+						<input type="text" name="adviser_title" class="adviser" placeholder="职称" required="required"/>
+						<input type="number" name="adviser_phone" class="adviser" placeholder="电话" required="required"/>
+						<input type="email" name="adviser_email" class="adviser" placeholder="邮件" required="required"/>
+					</div>
+				</div>
+				
+				<div class="box_item">
+					<div class="item_title">
+						<i class="must">*</i>
+						领队/队长：
+					</div>
+					<div class="item_content">
+						<input type="text" name="leader_name" class="leader" placeholder="姓名" required="required"/>
+						<input type="number" name="leader_phone" class="leader" placeholder="电话" required="required"/>
+						<input type="email" name="leader_email" class="leader" placeholder="邮件" required="required"/>
+					</div>
+				</div>
+				
+				<div class="box_item">
+					<div class="item_title">
+						<i class="must">*</i>
+						参赛队员：
+					</div>
+					<div class="item_content">
+						<div class="input_group">
+							<input type="text" name="team[name][]"  class="member" placeholder="姓名" required="required"/>
+							<input type="number" name="team[phone][]" class="member" placeholder="电话" required="required"/>
+							<input type="email" name="team[email][]" class="member" placeholder="邮件" required="required"/>
+						</div>
+						<div class="input_group">
+							<input type="text" name="team[name][]" class="member" placeholder="姓名" required="required"/>
+							<input type="number" name="team[phone][]" class="member" placeholder="电话" required="required"/>
+							<input type="email" name="team[email][]" class="member" placeholder="邮件" required="required"/>
+						</div>
+						<a href="javascript:;" class="add-option" onclick="addMember()">增加队员</a>
+					</div>
+				</div>
+			</div>	
+			<div class="upload">
+				<input type="submit" class="submit_btn" value="提交" />
+			</div>
+		</form>
+		
+		<form action="../php/search.php" method="post" class="form_apply form_search animated flipInX">
+			<div class="box_item">
+				<div class="item_content">
+					<input type="text" name="team_name" class="leader" placeholder="队伍名称" required="required"/>
+					<input type="text" name="leader_name" class="leader" placeholder="领队姓名" required="required"/>
+					<input type="text" name="leader_phone" class="leader" placeholder="领队电话" required="required"/>
+				</div>
+			</div>
+			<div class="upload">
+				<input type="submit" class="submit_btn" value="查询" />
+			</div>
+		</form>
+		
+		<script src="https://cdn.bootcss.com/limonte-sweetalert2/7.28.5/sweetalert2.all.js"></script>
+		<script type="text/javascript" src="../js/signup.js" ></script>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	</body>
+</html>

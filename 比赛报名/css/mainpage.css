@@ -1,0 +1,88 @@
+/*author: SXF*/                
+/*email:1061700625@qq.com*/  
+/*date:2018/10/21*/
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/mainpage.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.box{
+	margin: 18% 0 0 45%;
+	width: 450px;
+	text-align: center;
+}
+.box_title{
+	font-family: "华文行楷";
+	font-size: 50px;
+	color: #5D5D5D;
+}
+.box_subhead{
+	font-family: "times new roman";
+	font-size: 24px;
+	color: #5D5D5D;
+}
+.arrow{
+	position: absolute;
+	top:70%;
+	right: 2%;
+}
+.arrow_source{
+	width: 130px;
+	height: 64px;
+	cursor: pointer;
+}
+.arrow_signup{
+	width: 130px;
+	cursor: pointer;
+}
+.arrow_source:hover,.arrow_signup:hover{
+	border: 1px solid #5D5D5D;
+	border-radius: 5px;
+}
+#box_float{
+	width:100%;
+}
+.box_links{
+	padding: 5px 0 5px 10px;
+	background-color: rgb(233,231,227);
+}
+.box_links a{
+	display: inline-block;
+	text-decoration: none;
+	color: darkslategrey;
+	padding: 4px 10px 4px 10px;
+}
+.box_links a:hover{
+	background-color: rgb(63,63,63);
+	color: whitesmoke;
+}
+#ftCon {
+    height: 65px;
+    position: absolute;
+    bottom: 0px;
+    left:30%;
+    /*text-align: center;*/
+    width: 500px;
+    margin: 0 auto;
+    z-index: 0;
+    overflow: hidden;
+    font: 12px arial;
+    /*border: 1px solid red;*/
+}
+.ftCon-Wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+#ftConw {
+    text-align: center;
+    margin-left: 0px;
+}
+.ftCon-Wrapper a{
+	font: 12px arial;
+	text-decoration: none;
+	color: #2F4F4F;
+}

@@ -1,0 +1,91 @@
+/*author: SXF*/                
+/*email:1061700625@qq.com*/  
+/*date:2018/10/21*/
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/signup.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.title{
+	color: whitesmoke;
+	font-family: 华文彩云, 微软雅黑;
+	font-size: 30px;
+	text-align: center;
+   	width: 900px;
+   	margin: 30px auto;
+}
+.form_apply{
+	width: 900px;
+	min-height: 500px;
+	margin: 50px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(255,238,147,0.95);
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+.item_content{
+	margin-left: 40px;
+	line-height: 30px;
+	/*border: 1px solid blue;*/
+}
+.item_title{
+	margin-top: 10px;
+	margin-left: 20px;
+	/*border: 1px solid green;*/
+	font-size: 18px;
+	font-family: "楷体";
+}
+input{
+	width: 180px;
+	height: 30px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.input_group{
+	margin-bottom: 10px;
+}
+
+.upload{
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.submit_btn{
+	width: 80px;
+	height: 40px;
+	font-family: "楷体";
+	font-size: 20px;
+	background-color: rgb(100,149,237);
+	color: whitesmoke;
+}
+.add-option{	padding: 10px 10px;
+	font-family: "楷体";
+	background-color: rgb(100,149,237);
+	color: whitesmoke;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.must{
+	font-size: 10px;
+	float: left;
+	color: red;
+}
+
+.submit_btn:hover,.add-option:hover{
+	background-color: gray;
+	cursor: pointer;
+	box-shadow: 2px 2px 2px #888888;
+}
+input:hover{
+	background-color: navajowhite;
+}
+
+
+.form_search{
+	min-height: 10px;
+}

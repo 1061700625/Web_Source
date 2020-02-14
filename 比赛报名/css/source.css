@@ -1,0 +1,43 @@
+/*author: SXF*/                
+/*email:1061700625@qq.com*/  
+/*date:2018/10/21*/
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/source.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.box{
+	text-align: center;
+	width: 200px;
+	/*margin: 10% auto;*/
+	/*margin: 0 auto;*/
+	/*position: relative;*/
+	position: absolute;
+	top: 20%;
+	left: 43%;
+	/*transform: translate(-50%, -50%);*/
+	
+}
+.box li{
+	height: 30px;
+	list-style: none;
+	position: relative;
+	margin-bottom:5px ;
+}
+[class^=box_font]{
+	top: 5px;
+	color: whitesmoke;
+	font-family:'xiaomaomi1534cda3a51e58a';	
+	text-decoration: none;
+	position: relative;
+}
+.box li:hover{
+	cursor: pointer;
+	/*font-size: 18px;*/
+	background-color: cornflowerblue;
+	border-radius: 20px;
+}
+
